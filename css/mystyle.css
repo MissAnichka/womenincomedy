@@ -1,0 +1,309 @@
+html{
+    font-size: 2vw;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ccc;
+    text-align: center;
+    font-family:'Lato', sans-serif;
+    color: #333;
+}
+
+/*side navigation*/
+#mysidenav a {
+    position: fixed;
+    left: -140px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 150px;
+    text-decoration: none;
+    text-align: left;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    /*border: .09em #fff solid;*/
+}
+/*pops out on hover! :) */
+#mysidenav a:hover {
+    left:0;
+}
+
+#momsmableynav {
+    top: 20px;
+    background-color: #528140;
+}
+
+#lucilleballnav {
+    top: 80px;
+    background-color: #8F4752;
+}
+
+#carolburnettnav {
+    top: 140px;
+    background-color: #baab0d; /*mustard yellow?*/
+} 
+/*testing video alignment for small screens*/
+@media screen and (max-width:900px) {
+    .flex-container-video {flex-direction: column;}
+}
+/*end nav*/
+
+.header-text{
+    font-family:'Alfa Slab One', cursive; 
+    font-size: 2.5em;
+    padding: 2% 0;
+    background-color: #262626;
+    color: #fff;
+}
+
+.sub-head{
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: 700;
+    padding: 2% 0;
+    color: #1a1a1a;
+    background-color: #e6e6e6;
+    border-bottom: .06em #000 solid;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.flex-container-video {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.flex-figure {
+    width: 28%;
+    margin: 1.5%;
+    text-align: center;
+    font-size: .9em;
+    font-style: italic;
+    line-height: 125%;
+    text-indent: 0;
+    background-color: #fff;
+    border: .2em #000 solid;
+    padding-bottom: .6em;
+    overflow: hidden;
+    }
+    
+.circle:hover {
+    border-radius:50%;
+}
+
+.figure-link a {
+    text-decoration: none;
+    color: #262626;
+}
+    
+   
+.figure-image{
+    width: 100%;
+}
+
+.left-image {
+    float: left;
+    padding: 1em 0 1em 1.5em;
+    width: 30%;
+}
+
+/*quote testing 
+    .quote {
+    float: left;
+    position: relative;
+    right: .3em;
+    padding: 1em 0 1em 1.5em;
+    width: 30%;
+    background-color: #fff;
+    line-height: 130%;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 1.3em;
+    box-shadow: .25em .25em .1em #888;
+}
+
+.open-q {
+    position: absolute;
+    top: 6.65em;
+    left: .1em;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 9em;
+}
+*/
+
+.quote-box {
+    float: left;
+    padding: 0;
+    width: 33%;
+    background-color: #fff;
+    box-shadow: .25em .25em .1em #888;
+}
+
+.quote-top {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 8em;
+    z-index: 2;
+    margin: 0 auto;
+    padding: 0;
+    line-height: 1em;
+    height: .35em;
+    }
+
+.quote-body {
+    line-height: 120%;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 1.3em;
+    z-index: 3;
+    margin: 0;
+    padding: 0 0 1em 0em;
+    
+}
+
+
+.list-container {
+    float: right;
+    margin: 1em;
+    width: 50%;
+    background-color: #fff;
+    border: .2em #000 solid;
+    border-radius: .8em;
+    padding: 1em 3em 1em 2em;
+}
+
+.list-head {
+    font-size: 1.3em;
+    font-style: italic;
+    padding-bottom: .4em;
+}
+
+.list-items {
+    margin: 0 auto;
+    text-align: left;
+    line-height: 109%;
+    list-style-type: disc;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.list-items a {
+    color: #333;
+}
+
+li {
+    padding-bottom: .2em;
+}
+
+.flex-videos {
+    padding: 1em;
+}
+
+/*color start*/
+
+
+/*.lucy-list-color a {
+    -moz-text-decoration-color: #8F4752;  Code for Firefox
+text-decoration-color: #8F4752;
+}*/
+
+.moms-section-color {
+    background-color: #E1EBDD;
+ }   
+ 
+.moms-header-color {
+    background-color: #528140;
+    color: #fff;
+}
+ 
+.moms-sub-color {
+    background-color: #fff;
+    color: #528140;
+    border-color: #528140;
+}
+
+.moms-list-color {
+    border-color: #528140;
+}
+
+/*.moms-list-color a {
+    -moz-text-decoration-color: #528140; Code for Firefox 
+    text-decoration-color: #528140;
+}*/
+
+.lucy-section-color {
+    background-color: #F8E9EB;
+ }   
+ 
+ .lucy-header-color {
+    background-color: #8F4752;
+    color: #fff;
+}
+ 
+.lucy-sub-color {
+    background-color: #fff;
+    color: #8F4752;
+    border-color: #8F4752;
+}
+
+.lucy-list-color {
+    border-color: #8F4752;
+}
+
+.carol-section-color {
+    background-color: #f4eeba;
+ }   
+ 
+ .carol-header-color {
+    background-color: #baab0d;
+    color: #fff;
+}
+ 
+.carol-sub-color {
+    background-color: #fff;
+    color: #baab0d;
+    border-color: #baab0d;
+}
+
+.carol-list-color {
+    border-color: #baab0d;
+}
+
+/*.carol-list-color a {
+    -moz-text-decoration-color: #baab0d;  Code for Firefox 
+    text-decoration-color: #baab0d;
+}*/
+
+/*color end*/
+
+footer {
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    -webkit-flex-direction: row;
+    -webkit-justify-content: space-between;
+    background-color: #e6e6e6;
+    border-top: .06em #000 solid;
+    padding: 2%;
+    font-size: .8em;
+}
+
+.photo-credit a{
+    color: #333;
+}
+
+/*email input form styling*/
+input {
+    padding: 5px;
+    margin: 5px;
+}
+
